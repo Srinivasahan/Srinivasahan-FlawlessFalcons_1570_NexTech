@@ -15,7 +15,7 @@ const Main= () =>{
             <br>
             </br>
         
-            <button variant="outlined" color="blue">Submit</button>
+            <button variant="outlined" color="blue" >Submit</button>
       </center>
         </div>
     );

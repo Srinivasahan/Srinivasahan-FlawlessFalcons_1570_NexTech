@@ -1,15 +1,16 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
-import Bottom from "./Components/Bottom";
+import Button from "./day3/Components/Button";
+import { Cricket } from "./day3/Components/Cricket";
+import { Dynamicrendering } from "./day3/Components/Dynamicrendering";
 function App() {
   return (
-    <div>
-      <Navbar></Navbar>
-      <Main></Main>
-      <Footer></Footer>
-      <Bottom></Bottom>
+    <div className="flex space-x-10 my-8">
+      <Button color="green" >Green Button</Button>
+      <Button color="red">Red Button</Button>
+      <Button color="yellow">Yellow Button</Button>
+      <Button color="blue">Blue Button</Button>
+      <Dynamicrendering></Dynamicrendering>
+      <Cricket></Cricket>
     </div>
   );
 }
