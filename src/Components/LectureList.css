@@ -1,0 +1,36 @@
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .video-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .video-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .video-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-info {
+    padding: 10px;
+  }
+  
+  .video-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .video-info p {
+    margin: 0;
+  }

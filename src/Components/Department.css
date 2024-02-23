@@ -1,0 +1,22 @@
+.department-list-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .department-list {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .department-item {
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .department-item:hover {
+    background-color: #e0e0e0;
+  }
